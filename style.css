@@ -26,7 +26,6 @@ button {
 }
 
 .main-form-area {
-  display: grid;
   padding-left: 540px;
   align-items: center;
   display: flex;
@@ -38,7 +37,7 @@ button {
 }
 
 .form-container {
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid #c7c7c7;
   width: 50%;
   height: 100%;
@@ -64,13 +63,14 @@ button {
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: #000;
 }
 
 ul#horizontal-list {
   min-width: 296px;
   list-style: none;
 }
+
 ul#horizontal-list li {
   margin: 0;
   padding: 0;
@@ -88,7 +88,7 @@ ul#horizontal-list li span a img {
 }
 
 #signin-button {
-  border: #000000;
+  border: #000;
   background-color: #0077c5;
   border-radius: 5%;
   text-align: center;
@@ -97,8 +97,8 @@ ul#horizontal-list li span a img {
   padding: 12px 25px 12px 25px;
   color: aliceblue;
 }
-input,
-select {
+
+input, select {
   width: 100%;
   padding: 12px 15px;
   margin: 8px 0;
@@ -117,16 +117,18 @@ input[type="submit"] {
   border: none;
   cursor: pointer;
 }
+
 label {
   background-color: white;
 }
 
 h2 {
   background-color: white;
-  color: #000000;
+  color: #000;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
+
 h5,
 h5 a,
 h5 em {
@@ -135,6 +137,7 @@ h5 em {
   color: #9c9aac;
   text-align: center;
 }
+
 h5 a {
   color: blue;
 }
@@ -142,7 +145,8 @@ h5 a {
 form {
   background-color: white;
 }
-form span {
+
+form > span {
   background-color: white;
   font-size: x-small;
 }
@@ -157,7 +161,6 @@ form span {
   display: inline-block;
   float: left;
   width: 300px;
-  heigh: 150px;
   padding: 5px;
 }
 
