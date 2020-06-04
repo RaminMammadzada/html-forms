@@ -1,21 +1,90 @@
+* {
+  background-color: #edeef1;
+}
+
 header {
-    margin-left: 20px;
+  margin-left: 20px;
+  display: grid;
+  float: right;
 }
 
 .container {
-    width: 350px;
-    overflow: hidden;
-    float: right;
+  width: 380px;
+  overflow: hidden;
+  float: right;
 }
 
 .text {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    display: block;
-
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
 }
 
 button {
-    float: right;
+  float: right;
+}
+
+.main-form-area {
+  display: grid;
+  padding-left: 300px;
+  align-items: center;
+  display: flex;
+  flex-direction: column
+}
+
+.icons-container{
+    text-align: center;
+}
+
+.form-container{
+    background-color:#FFFFFF;
+    border: 1px solid #c7c7c7;
+    width: 50%;
+    height: 100%; 
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+}
+
+.main-form-area img {
+  margin-top: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+ul#horizontal-list {
+  min-width: 296px;
+  list-style: none;
+}
+ul#horizontal-list li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    vertical-align: middle;
+}
+
+ul#horizontal-list li span {
+    vertical-align: middle;
+}
+
+
+ul#horizontal-list li span a img {
+  width: 4%;
+  margin-top: 0;
+}
+
+
+#signin-button{
+    border: #000000;
+  background-color: #0077C5;
+  border-radius: 5%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 12px 25px 12px 25px;
+  color: aliceblue;
 }
