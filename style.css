@@ -98,7 +98,8 @@ ul#horizontal-list li span a img {
   color: aliceblue;
 }
 
-input, select {
+input,
+select {
   width: 100%;
   padding: 12px 15px;
   margin: 8px 0;
