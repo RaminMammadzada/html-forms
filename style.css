@@ -1,0 +1,23 @@
+
+
+header{
+    margin-left: 20px;
+}
+.container
+{
+   width:350px;
+   overflow: hidden;
+   float: right;
+}
+.text
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block; 
+    
+}
+button
+{
+    float: right;    
+}
