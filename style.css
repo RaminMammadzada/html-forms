@@ -153,7 +153,7 @@ form span {
   text-align: center;
 }
 
-#li-footer {
+.li-footer {
   display: inline-block;
   float: left;
   width: 300px;
