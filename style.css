@@ -43,8 +43,8 @@ button {
     width: 50%;
     height: 100%; 
     vertical-align: middle;
-    text-align: center;
     align-items: center;
+    padding: 30px;
 }
 
 .main-form-area img {
@@ -87,4 +87,37 @@ ul#horizontal-list li span a img {
   font-size: 18px;
   padding: 12px 25px 12px 25px;
   color: aliceblue;
+}
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color:#0077C5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  label{
+      background-color: white;
+  }
+
+h3, h5, h5 a, h5 em {
+    background-color: white;
+    text-align: center;
+}
+
+form {
+    background-color: white;
 }
