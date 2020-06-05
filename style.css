@@ -18,11 +18,14 @@ header {
   float: right;
 }
 
-.text {
+.sign-in-text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   display: block;
+  float: right;
+  margin-top: 6px;
+  margin-right: 10px;
 }
 
 button {
@@ -80,7 +83,15 @@ footer {
 
 a {
   text-decoration: none;
+  color: #00f;
+}
+
+li a {
   color: #000;
+}
+
+li a:hover {
+  text-decoration: underline;
 }
 
 form p {
