@@ -2,13 +2,17 @@
   background-color: #edeef1;
 }
 
-header {
-  margin-left: 20px;
-  display: grid;
-  float: right;
+body {
+  text-align: center;
 }
 
-.container {
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.header-container {
   width: 380px;
   overflow: hidden;
   float: right;
@@ -25,13 +29,6 @@ button {
   float: right;
 }
 
-.main-form-area {
-  padding-left: 540px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
 .icons-container {
   text-align: center;
 }
@@ -39,31 +36,54 @@ button {
 .form-container {
   background-color: #fff;
   border: 1px solid #c7c7c7;
-  width: 50%;
   height: 100%;
-  vertical-align: middle;
-  align-items: center;
-  padding: 50px;
+  padding-top: 2px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
-.main-form-area img {
+main {
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-form-container {
+  display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-form-container img {
   margin-top: 50px;
 }
-
 .footer-container {
   display: flex;
   flex-direction: column;
-  align-content: center;
   vertical-align: middle;
   align-items: center;
   text-align: center;
   width: 500px;
-  padding-left: 620px;
 }
 
 a {
   text-decoration: none;
   color: #000;
+}
+
+form p {
+  background: #fff;
 }
 
 ul#horizontal-list {
@@ -121,6 +141,11 @@ input[type="submit"] {
 
 label {
   background-color: white;
+  float: left;
+}
+
+#call-messaging-info {
+  font-size: 11px;
 }
 
 h2 {
@@ -145,6 +170,9 @@ h5 a {
 
 form {
   background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 330px;
 }
 
 #term-and-conditions {

@@ -11,7 +11,7 @@
 
 <body>
 	<header>
-		<div class="container">
+		<div class="header-container">
 			<button id="signin-button" type="button"> Sign in </button>
 			<div class="text">
 				<span>Already have an Intuit account? <br>
@@ -22,10 +22,10 @@
 
 	</header>
 	<main>
-		<div class="main-form-area">
+		<div class="main-form-container">
 
 			<div class="icons-container">
-				<img src="images/company-logo.jpg" width="20" alt="">
+				<img src="images/company-logo.jpg" width="140" alt="">
 				<ul id="horizontal-list">
 					<li>
 						<span>
@@ -62,20 +62,22 @@
 					<input type="email" id="email" name="email"><br>
 					<label for="Phone">Phone (recommended)</label><br>
 					<input type="text" id="Phone" name="Phone"><br>
-					<p>Standard call, messaging or data rates may apply.</p><br> <br>
+					<label id="call-messaging-info">Standard call, messaging or data rates may apply.</label><br> <br>
 					<label for="Password">Password</label><br>
-					<input type="Password" id="Password" name="Password"><br>
+					<input type="Password" id="Password" name="Password"><br><br>
 					<input type="submit" value="Create Account">
 				</form>
 				<h5 id="term-and-conditions">
 					<em> By clicking Create account, you agree to our
-						<a href="https://www.mint.com/terms">Terms</a> and
-						have read and acknowledge our <a href="https://www.mint.com/terms">Privacy</a> Statement.</em>
+						<a href="https://www.mint.com/terms">Terms</a>
+						<br>
+						and have read and acknowledge our <a href="https://www.mint.com/terms">Privacy</a>
+						<br><a href="https://www.mint.com/terms">Statement.</a>
+					</em>
 				</h5>
 			</div>
 		</div>
 	</main>
-
 	<footer>
 		<div class="footer-container">
 			<div>
@@ -91,17 +93,21 @@
 					</li>
 				</ul>
 			</div>
-			<div id="ius-sign-up-copyright" class="ius-hostedui-footer-row ius-hostedui-footer-copyright">
-				<span id="ius-sign-up-copy-container"><span id="ius-sign-up-copy-message">© 2020 Intuit, Inc. All rights
-						reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of
-						Intuit Inc.</span>
-					<br> Terms and conditions, features, support, pricing, and service options subject to change without
-					notice.</span>
+			<div>
+				<span>
+					© 2020 Intuit, Inc. All rights
+					reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of
+					Intuit Inc.
+				</span>
+				<br>
+				<span>
+					Terms and conditions, features, support, pricing, and service options subject to change without
+					notice.
+				</span>
 				<br>
 			</div>
 		</div>
 	</footer>
-
 </body>
 
 </html>
