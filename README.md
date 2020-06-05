@@ -3,7 +3,7 @@
 > This is the clone mint.com’s sign up page. Prepared for as a collaboration project with my coding partner Rocio from Microverse. 
 This project's name is "HTML Forms" in Microverse.
 
-![screenshot](images/page_screenshot.png)
+![screenshot](images/page_screenshot1.png)
 
 ## Built With
 

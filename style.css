@@ -78,7 +78,7 @@ footer {
   vertical-align: middle;
   align-items: center;
   text-align: center;
-  width: 500px;
+  width: 900px;
 }
 
 a {
@@ -194,16 +194,16 @@ form {
 }
 
 .li-footer {
-  display: inline-block;
-  float: left;
+  display: inline;
   width: 300px;
   padding: 5px;
 }
 
 .ul-footer {
   display: flex;
-  flex-wrap: nowrap;
-  width: 200px;
+  text-align: center;
+  width: 240px;
   align-content: center;
   vertical-align: middle;
+  padding: 0px;
 }
