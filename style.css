@@ -81,19 +81,6 @@ footer {
   width: 900px;
 }
 
-a {
-  text-decoration: none;
-  color: #00f;
-}
-
-li a {
-  color: #000;
-}
-
-li a:hover {
-  text-decoration: underline;
-}
-
 form p {
   background: #fff;
 }
@@ -167,6 +154,11 @@ h2 {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: #00f;
+}
+
 h5,
 h5 a,
 h5 em {
@@ -178,6 +170,14 @@ h5 em {
 
 h5 a {
   color: blue;
+}
+
+li a {
+  color: #000;
+}
+
+li a:hover {
+  text-decoration: underline;
 }
 
 form {
