@@ -1,0 +1,209 @@
+* {
+  background-color: #edeef1;
+}
+
+body {
+  text-align: center;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.header-container {
+  width: 380px;
+  overflow: hidden;
+  float: right;
+}
+
+.sign-in-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  float: right;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+button {
+  float: right;
+}
+
+.icons-container {
+  text-align: center;
+}
+
+.form-container {
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  height: 100%;
+  padding-top: 2px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+main {
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-form-container {
+  display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-form-container img {
+  margin-top: 50px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  align-items: center;
+  text-align: center;
+  width: 900px;
+}
+
+form p {
+  background: #fff;
+}
+
+ul#horizontal-list {
+  min-width: 296px;
+  list-style: none;
+}
+
+ul#horizontal-list li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  vertical-align: middle;
+}
+
+ul#horizontal-list li span {
+  vertical-align: middle;
+}
+
+ul#horizontal-list li span a img {
+  width: 4%;
+  margin-top: 0;
+}
+
+#signin-button {
+  border: #000;
+  background-color: #0077c5;
+  border-radius: 5%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 12px 25px 12px 25px;
+  color: aliceblue;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #0077c5;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+label {
+  background-color: white;
+  float: left;
+}
+
+#call-messaging-info {
+  font-size: 11px;
+}
+
+h2 {
+  background-color: white;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #00f;
+}
+
+h5,
+h5 a,
+h5 em {
+  background-color: white;
+  font-size: 12px;
+  color: #9c9aac;
+  text-align: center;
+}
+
+h5 a {
+  color: blue;
+}
+
+li a {
+  color: #000;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+form {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 330px;
+}
+
+#term-and-conditions {
+  font-size: 12px;
+  color: #9c9aac;
+  text-align: center;
+}
+
+.li-footer {
+  display: inline;
+  width: 300px;
+  padding: 5px;
+}
+
+.ul-footer {
+  display: flex;
+  text-align: center;
+  width: 240px;
+  align-content: center;
+  vertical-align: middle;
+  padding: 0;
+}
